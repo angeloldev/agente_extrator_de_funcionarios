@@ -36,7 +36,7 @@ Selecione **GPT-OSS 120B — OpenAI (via Groq)** como modelo do agente.
 Selecione na barra lateral esquerda, ou role até **Toolset**, clique em **Add tool**, e escolha a opção **Agentic Workflow**.
 
 <img src="./assets/add_tool.png" width=75% height=75%>
-<img src="./assets/agentic_workflow." width=75% height=75%>
+<img src="./assets/agentic_workflow.png" width=75% height=75%>
 
 Após colocar um nome, vamos começar o fluxo de trabalho que o agente deve percorrer ao longo do tempo de execução, pelo qual conseguirá extrair os campos desejados de um documento. Siga os passos a seguir:
 
