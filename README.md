@@ -38,17 +38,19 @@ Selecione na barra lateral esquerda, ou role até **Toolset**, clique em **Add t
 <img src="./assets/add_tool.png" width=75% height=75%>
 <img src="./assets/agentic_workflow.png" width=75% height=75%>
 
+Através do Agentic Workflow, a ferramenta permite selecionar e arrastar atividades do usuário, ou do agente, até o fluxo de uma maneira dinâmica, rápida, intuitiva e simples.
+
 Após colocar um nome, vamos começar o fluxo de trabalho que o agente deve percorrer ao longo do tempo de execução, pelo qual conseguirá extrair os campos desejados de um documento. 
 
-1. Selecione **User Activity** no menu flutuante e arraste até a linha que liga **inputs** até **outputs**.
-2. Dentro de User Activity (caixinha verde), clique em **Add** e clique na opção **File Upload**.
-3. Agora, na linha externa que liga User Activity até **outputs**, selecione **Document Extractor**
+1. Selecione **User Activity** no menu flutuante, e arraste até a linha que liga **inputs** e **outputs**.
+2. Dentro de User Activity (caixinha verde), clique em **Add** e depois na opção **File Upload**.
+3. Agora, na linha externa, que liga User Activity até **outputs**, selecione **Document Extractor**
 
-Todas essas etapas acima são realizadas no gif abaixo:
+Todas essas etapas são realizadas no gif abaixo:
 
 <img src="./assets/criacao_flowbuild.gif" width=75% height=75%>
 
-Através do Agentic Workflow, a ferramenta permite selecionar e arrastar atividades do usuário, ou do agente, até o fluxo de uma maneira dinâmica, rápida, intuitiva e simples.
+Concluídas as etapas acima, um janela em **Document Extractor** se abrirá. Nela, selecione 
 
 ## II. Exemplos de Bad Chain
 
