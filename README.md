@@ -58,7 +58,7 @@ Concluídas as etapas acima, um janela em **Document Extractor** se abrirá. Nel
 > 💬 A opção Structured é utilizada em documentos que apresentam boa legibilidade, organização e padrões de escrita, que parecem sempre iguais. Exemplos: faturas, identidades, declarações fiscais.
 > Caso seja um documento que apresente informações com um layout inconsistente, utilize a Unstructured. Exemplos: e-mails, relatórios.
 
-Baixe o [perfil_de_funcionários] (./assets/perfil_funcionarios.pdf) e faça o upload do arquivo na tela abaixo
+Baixe o [perfil_de_funcionários](./assets/perfil_funcionarios.pdf) e faça o upload do arquivo na tela abaixo
 
 ## II. Exemplos de Bad Chain
 
