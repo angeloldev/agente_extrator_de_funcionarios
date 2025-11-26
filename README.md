@@ -50,7 +50,11 @@ Todas essas etapas são realizadas no gif abaixo:
 
 <img src="./assets/criacao_flowbuild.gif" width=75% height=75%>
 
-Concluídas as etapas acima, um janela em **Document Extractor** se abrirá. Nela, selecione 
+Concluídas as etapas acima, um janela em **Document Extractor** se abrirá. Nela, selecione **Structred**.
+
+> [!NOTE]
+> 💬 A opção Structured é utilizada em documentos que apresentam boa legibilidade, organização e padrões de escrita, que parecem sempre iguais. Exemplos: faturas, identidades, declarações fiscais.
+> Caso seja um documento que apresente informações com um layout inconsistente, utilize a Unstructured. Exemplos: e-mails, relatórios.
 
 ## II. Exemplos de Bad Chain
 
