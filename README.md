@@ -22,7 +22,7 @@ Esse agente ajuda a extrair entidades, campos e informações de funcionários e
 
 <img src="./assets/create_an_agent.png" width=75% height=75%>
 
-### - Modelo
+### Modelo
 
 Selecione **GPT-OSS 120B — OpenAI (via Groq)** como modelo do agente.
 
@@ -31,14 +31,20 @@ Selecione **GPT-OSS 120B — OpenAI (via Groq)** como modelo do agente.
 > [!NOTE]
 > 💬 Neste caso de uso não precisamos adicionar um Knowledge (base de conhecimento) ao agente. A finalidade dele independe de um conhecimento prévio.
 
-### - Toolset
+### Toolset
 
 Selecione na barra lateral esquerda, ou role até **Toolset**, clique em **Add tool**, e escolha a opção **Agentic Workflow**.
 
 <img src="./assets/add_tool.png" width=75% height=75%>
 <img src="./assets/agentic_workflow.png" width=75% height=75%>
 
-Após colocar um nome, vamos começar o fluxo de trabalho que o agente deve percorrer ao longo do tempo de execução, pelo qual conseguirá extrair os campos desejados de um documento. Siga os passos a seguir:
+Após colocar um nome, vamos começar o fluxo de trabalho que o agente deve percorrer ao longo do tempo de execução, pelo qual conseguirá extrair os campos desejados de um documento. 
+
+1. Selecione **User Activity** no menu flutuante e arraste até a linha que liga **inputs** até **outputs**.
+2. Dentro de User Activity (caixinha verde), clique em **Add** e clique na opção **File Upload**.
+3. Agora, na linha externa que liga User Activity até **outputs**, selecione **Document Extractor**
+
+Todas essas etapas acima são realizadas no gif abaixo:
 
 <img src="./assets/criacao_flowbuild.gif" width=75% height=75%>
 
