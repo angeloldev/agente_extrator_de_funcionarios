@@ -22,7 +22,7 @@ Esse agente ajuda a extrair entidades, campos e informações de funcionários e
 
 <img src="./assets/create_an_agent.png" width=75% height=75%>
 
-### Modelo
+### - Modelo
 
 Selecione **GPT-OSS 120B — OpenAI (via Groq)** como modelo do agente.
 
@@ -31,7 +31,7 @@ Selecione **GPT-OSS 120B — OpenAI (via Groq)** como modelo do agente.
 > [!NOTE]
 > 💬 Neste caso de uso não precisamos adicionar um Knowledge (base de conhecimento) ao agente. A finalidade dele independe de um conhecimento prévio.
 
-### Toolset
+### - Toolset
 
 Selecione na barra lateral esquerda, ou role até **Toolset**, clique em **Add tool**, e escolha a opção **Agentic Workflow**.
 
