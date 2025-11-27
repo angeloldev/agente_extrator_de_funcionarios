@@ -87,7 +87,7 @@ Agora, podemos conceder uma pequena descrição, e um exemplo de entrada e saíd
 
 > [!NOTE]
 > 💬 Para ser ainda mais eficiente e específico, ao criar o exemplo, podemos inserir o input, e ao selecionar o campo de output, identificamos manualmente o campo desejado no documento com o cursor do mouse como mostra o gif a seguir!
-<img src="./assets/identificao_field.gif" width=75% height=75%>
+<img src="./assets/identificando_field.gif" width=75% height=75%>
 
 
 
