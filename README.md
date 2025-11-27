@@ -64,7 +64,7 @@ Selecione na barra lateral esquerda, ou role até **Toolset**, clique em **Add t
 <img src="./assets/add_tool.png" width=75% height=75%>
 <img src="./assets/agentic_workflow.png" width=75% height=75%>
 
-## II. Implementando workflow como tool para o agente
+## III. Implementando workflow como tool para o agente
 
 Através do Agentic Workflow, a ferramenta permite selecionar e arrastar atividades do usuário, ou do agente, até o fluxo de uma maneira dinâmica, rápida, intuitiva e simples.
 
@@ -127,7 +127,7 @@ Conseguimos criar nosso primeiro campo! Agora se aventure e adicione os campos d
 
 Finalizando todos ajustes nos campos identificados, toque no "X" e em "Done" para retornar à página do agente.
 
-## III. Definindo comportamento do agente
+## IV. Definindo comportamento do agente
 
 ### Behavior
 
@@ -164,7 +164,7 @@ Rolando a tela, encontraremos a opção **Chat with documents** que permite o up
 
 Parabéns! Seu agente está pronto. Chegou a hora de testá-lo.
 
-## IV. Testando prompts com o agente extrator de funcionários
+## V. Testando prompts com o agente extrator de funcionários
 
 No chat de testes, no lado direito da tela, faça o upload do arquivo [perfil_de_funcionários](./assets/perfil_funcionarios.pdf), e especifique as informações que deseja que o modelo identifique.
 
