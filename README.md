@@ -74,7 +74,7 @@ Selecione a opção **Add field** e coloque um campo presente no documento, util
 
 O modelo retorna o primeiro nome de funcionário encontrado, mas podemos ensiná-lo a identificar outros nomes!
 
-<img src="./assets/nome_funcionario.png" width=75% height=75%>
+<img src="./assets/maria_silva.png" width=75% height=75%>
 
 Passando o cursor do mouse sobre o campo, um ícone aparecerá à direita, onde podemos realizar esse ajuste.
 
