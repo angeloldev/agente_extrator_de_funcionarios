@@ -9,23 +9,22 @@
 
 ## I. Acessando o watsonx Orchestrate
 
-Na página inicial do IBM Cloud, toque no **Menu de navegação** ao quanto superior esquerdo, procure por **Resource List**.
+Na página inicial do IBM Cloud, toque no **Menu de navegação**, no canto superior esquerdo e procure por **Resource List**.
 
 <img src="./assets/ibmcloud.png" width=75% height=75%>
 <img src="./assets/resourcelist.png" width=50% height=50%>
 
-Dentro da rsource list, procure por **AI / Machine Learning**, e selecione a opção correspondente ao **watsonx Orchestrate**.
+Dentro de Resource List, procure por **AI / Machine Learning**, e selecione a opção correspondente ao **watsonx Orchestrate**.
 
 <img src="./assets/watsonxorchestrate.png" width=75% height=75%>
 
-Toque no botão **Launch wtasonx Orchestrate** destacado em azul.
+Toque no botão **Launch watsonx Orchestrate**, destacado em azul.
 
 <img src="./assets/launch.png" width=75% height=75%>
 
 Clique em **Create New Agent** no canto inferior esquerdo da tela.
 
 ## II. Criando e configurando o agente
-
 
 <img src="./assets/create_agent.png" width=75% height=75%>.
 
@@ -42,7 +41,7 @@ Esse agente ajuda a extrair entidades, campos e informações de funcionários e
 
 ### Modelo e Style
 
-Ao lado do nome do agente, nos deparamos com um campo de **AI Model**. Podemos selecionar um modelo de LLM que auxilia o agente na sua tomada de decisão, qualidade e profundidade do retorno, e o abastece com uma grande quantidade de dados que pertencem ao modelo selecionado.
+Ao lado do nome do agente, nos deparamos com um campo **AI Model**. Podemos selecionar um modelo de LLM que auxilia o agente na sua tomada de decisão, qualidade e profundidade do retorno, e o abastece com uma grande quantidade de dados que pertencem ao modelo selecionado.
 
 Para isto, toque no campo e selecione **GPT-OSS 120B — OpenAI (via Groq)** como modelo do agente.
 
@@ -53,9 +52,8 @@ Deslizando a tela para baixo, encontraremos uma opção de **Style Agent** que d
 
 <img src="./assets/style_agent.png" width=75% height=75%>
 
-
 > [!NOTE]
-> 💬 Neste caso de uso não precisamos adicionar um Knowledge (base de conhecimento) ao agente. A finalidade dele independe de um conhecimento prévio.
+> 💬 Neste caso de uso não precisamos adicionar um Knowledge (base de conhecimento) no agente. A finalidade dele independe de um conhecimento prévio.
 
 ### Toolset
 
@@ -66,7 +64,7 @@ Selecione na barra lateral esquerda, ou role até **Toolset**, clique em **Add t
 
 ## III. Implementando workflow como tool para o agente
 
-Através do Agentic Workflow, a ferramenta permite selecionar e arrastar atividades do usuário, ou do agente, até o fluxo de uma maneira dinâmica, rápida, intuitiva e simples.
+Através do Agentic Workflow, a ferramenta permite selecionar e arrastar atividades de usuário, ou agente, até o fluxo de trabalho, de uma maneira dinâmica, rápida, intuitiva e simples.
 
 Após colocar um nome, vamos começar o fluxo de trabalho que o agente deve percorrer ao longo do tempo de execução, pelo qual conseguirá extrair os campos desejados de um documento. 
 
@@ -79,12 +77,13 @@ Todas essas etapas são realizadas no gif abaixo:
 
 <img src="./assets/criacao_flowbuild.gif" width=75% height=75%>
 
-Concluídas as etapas acima, um janela em **Document Extractor** se abrirá. Nela, selecione **Unstructred**.
+Concluídas as etapas acima, uma janela em **Document Extractor** se abrirá. Nela, selecione **Unstructred**.
 
 <img src="./assets/doc_extractor_options.png" width=75% height=75%>
 
 > [!NOTE]
 > 💬 A opção **Structured** é utilizada em documentos que apresentam boa legibilidade, organização e padrões de escrita, que parecem sempre iguais. Exemplos: faturas, identidades, declarações fiscais.
+
 > Caso seja um documento que apresente informações com um layout inconsistente, utilize a **Unstructured**. Exemplos: e-mails, relatórios.
 
 Baixe o [perfil_de_funcionários](./assets/perfil_funcionarios.pdf) e faça o upload do arquivo.
@@ -109,7 +108,7 @@ Passando o cursor do mouse sobre o campo, um ícone aparecerá à direita, onde 
 <img src="./assets/edit_field.png" width=75% height=75%>
 <img src="./assets/edit_screen.png" width=75% height=75%>
 
-Agora, podemos conceder uma pequena descrição, e um exemplo de entrada e saída para o modelo entender o que deve retornar quando o usuário solicitar aquele campo específico.
+Agora, podemos conceder uma pequena descrição, e um exemplo de entrada e saída, para o modelo entender o que deve retornar quando o usuário solicitar aquele campo específico.
 
 <img src="./assets/edit_field.png" width=75% height=75%>
 
@@ -117,7 +116,8 @@ Agora, podemos conceder uma pequena descrição, e um exemplo de entrada e saíd
 > 💬 Para ser ainda mais eficiente e específico, ao criar o exemplo, podemos inserir o input, e ao selecionar o campo de output, identificamos manualmente o campo desejado no documento com o cursor do mouse como mostra o gif a seguir!
 > <img src="./assets/identificando_field.gif" width=75% height=75%>
 
-Conseguimos criar nosso primeiro campo! Agora se aventure e adicione os campos desejados. Adicionando todos os campos possíveis usando os mesmos passos temos:
+Conseguimos criar nosso primeiro campo! Agora se aventure e adicione os campos desejados. 
+Adicionando todos os campos possíveis usando os mesmos passos, temos:
 
 <img src="./assets/all_fields.gif" width=75% height=75%>
 
@@ -131,13 +131,12 @@ Finalizando todos ajustes nos campos identificados, toque no "X" e em "Done" par
 
 ### Behavior
 
-Role a tela, ou selecione na barra lateral esquerda a opção **Behavior**.
+Role a tela, ou selecione na barra lateral esquerda, a opção **Behavior**.
 Este campo representa o comportamento do agente quanto à chamada das tools e as instruções necessárias para o tratamento de respostas ao usuário.
 
 <img src="./assets/behavior.png" width=75% height=75%>
 
 Cole o texto abaixo no campo Behavior.
-Essas instruções induzem o agente a retornar a resposta como uma tabela em markdwon, apresentando até mesmo um modelo de exemplo.
 
 ```
 Você é o agente de extração de entidades em documentos sobre funcionários.
@@ -153,6 +152,8 @@ Você é o agente de extração de entidades em documentos sobre funcionários.
 | Conteudo 1 | Conteudo 2 | ... |
 | ... |
 ```
+
+Essas instruções induzem o agente a retornar a resposta como uma tabela em markdwon, apresentando até mesmo um modelo de exemplo.
 
 ### Chat with documents
 
@@ -176,7 +177,7 @@ Retorne o nome de todos os funcionários do documento.
 
 <img src="./assets/chat_test_1.png" width=75% height=75%>
 
-Ao enviar uma requisição ao agente, ele começa um processo de **Reasoning**, indicado à direita do nome do agente, que explicita a chama da nossa tool, e o resultado obtido.
+Ao enviar uma requisição ao agente, ele começa um processo de **Reasoning**, indicado à direita do nome do agente, que explicita a chamada da tool **Agentic Flowbuild**, e o resultado obtido.
 
 <img src="./assets/reasoning.png" width=75% height=75%>
 
@@ -197,6 +198,16 @@ Quais funcionários possuem ID, e qual o número de identificação de cada um d
 ```
 
 <img src="./assets/id.png" width=75% height=75%>
+
+### Deploy do agente
+
+Todos os testes validados, e o agente funcionando corretamente, chegou a hora de implementá-lo no seu ambiente.
+Para isso, toque em **Deploy**, localizado acima do chat de testes.
+
+<img src="./assets/deploy.png" width=75% height=75%>
+<img src="./assets/deploy_2.png" width=75% height=75%>
+
+Desta forma, outras pessoas que utilizarem a mesma instância que utilizou para fazer o Deploy do seu Agente Extrator de Funcionários, poderão utlizar o seu agente!
 
 ---
 
