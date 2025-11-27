@@ -7,9 +7,24 @@
 🧪 Este laboratório foi projetado para ajudá-lo a desenvolver habilidades práticas na criação, teste e ajuste de agentes com wtasonx Orchestrate.
 
 
-## I. Criando e configurando agente
+## I. Acessando o watsonx Orchestrate
 
-- Após acessar o watsonx Orchestrate, clique em **Create New Agent** <img src="./assets/create_agent.png" width=2% height=2%>. Role a página e selecione a aba **watsonx**.
+Na página inicial do IBM Cloud, toque no **Menu de navegação** ao quanto superior esquerdo, procure por **Resource List**.
+
+<img src="./assets/ibmcloud.png" width=75% height=75%>
+<img src="./assets/resourcelist.png" width=75% height=75%>
+
+Dentro da rsource list, procure por **AI / Machine Learning**, e selecione a opção correspondente ao **watsonx Orchestrate**.
+
+<img src="./assets/watsonxorchestrate.png" width=75% height=75%>
+
+Toque no botão **Launch wtasonx Orchestrate** destacado em azul.
+
+<img src="./assets/watsonxorchestrate.png" width=75% height=75%>
+
+Clique em **Create New Agent** no canto inferior esquerdo da tela.
+
+<img src="./assets/create_agent.png" width=2% height=2%>.
 
 Quando estiver na página Create an agent, coloque o nome e a descrição a seguir e clique em **Create**.
 
@@ -138,7 +153,7 @@ Rolando a tela, encontraremos a opção **Chat with documents** que permite o up
 
 Parabéns! Seu agente está pronto. Chegou a hora de testá-lo.
 
-## IIII. Testando prompts com o agente extrator de funcionários
+## IV. Testando prompts com o agente extrator de funcionários
 
 No chat de testes, no lado direito da tela, faça o upload do arquivo [perfil_de_funcionários](./assets/perfil_funcionarios.pdf), e especifique as informações que deseja que o modelo identifique.
 
