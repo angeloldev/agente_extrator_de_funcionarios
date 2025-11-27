@@ -79,7 +79,7 @@ O modelo retorna o primeiro nome de funcionário encontrado, mas podemos ensiná
 Passando o cursor do mouse sobre o campo, um ícone aparecerá à direita, onde podemos realizar esse ajuste.
 
 <img src="./assets/edit_field.png" width=75% height=75%>
-<img src="./assets/edit-screen.png" width=75% height=75%>
+<img src="./assets/edit_screen.png" width=75% height=75%>
 
 Agora, podemos conceder uma pequena descrição, e um exemplo de entrada e saída para o modelo entender o que deve retornar quando o usuário solicitar aquele campo específico.
 
@@ -87,7 +87,7 @@ Agora, podemos conceder uma pequena descrição, e um exemplo de entrada e saíd
 
 > [!NOTE]
 > 💬 Para ser ainda mais eficiente e específico, ao criar o exemplo, podemos inserir o input, e ao selecionar o campo de output, identificamos manualmente o campo desejado no documento com o cursor do mouse como mostra o gif a seguir!
-> <img src="./assets/identificao_field.png" width=75% height=75%>
+> <img src="./assets/identificao_field.gif" width=75% height=75%>
 
 
 
