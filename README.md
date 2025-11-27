@@ -12,7 +12,7 @@
 Na página inicial do IBM Cloud, toque no **Menu de navegação** ao quanto superior esquerdo, procure por **Resource List**.
 
 <img src="./assets/ibmcloud.png" width=75% height=75%>
-<img src="./assets/resourcelist.png" width=75% height=75%>
+<img src="./assets/resourcelist.png" width=50% height=50%>
 
 Dentro da rsource list, procure por **AI / Machine Learning**, e selecione a opção correspondente ao **watsonx Orchestrate**.
 
@@ -20,13 +20,16 @@ Dentro da rsource list, procure por **AI / Machine Learning**, e selecione a op�
 
 Toque no botão **Launch wtasonx Orchestrate** destacado em azul.
 
-<img src="./assets/watsonxorchestrate.png" width=75% height=75%>
+<img src="./assets/launch.png" width=75% height=75%>
 
 Clique em **Create New Agent** no canto inferior esquerdo da tela.
 
-<img src="./assets/create_agent.png" width=2% height=2%>.
+## II. Criando e configurando o agente
 
-Quando estiver na página Create an agent, coloque o nome e a descrição a seguir e clique em **Create**.
+
+<img src="./assets/create_agent.png" width=75% height=75%>.
+
+Quando estiver na página **Create an agent**, coloque o nome e a descrição a seguir e clique em **Create**.
 
 ```
 Agente Extrator de Funcionários
@@ -37,11 +40,19 @@ Esse agente ajuda a extrair entidades, campos e informações de funcionários e
 
 <img src="./assets/create_an_agent.png" width=75% height=75%>
 
-### Modelo
+### Modelo e Style
 
-Selecione **GPT-OSS 120B — OpenAI (via Groq)** como modelo do agente.
+Ao lado do nome do agente, nos deparamos com um campo de **AI Model**. Podemos selecionar um modelo de LLM que auxilia o agente na sua tomada de decisão, qualidade e profundidade do retorno, e o abastece com uma grande quantidade de dados que pertencem ao modelo selecionado.
 
+Para isto, toque no campo e selecione **GPT-OSS 120B — OpenAI (via Groq)** como modelo do agente.
+
+<img src="./assets/model.png" width=75% height=75%>
 <img src="./assets/modelo.png" width=75% height=75%>
+
+Deslizando a tela para baixo, encontraremos uma opção de **Style Agent** que define como agente deve pensar e agir. Selecione a opção **Default**.
+
+<img src="./assets/style_agent.png" width=75% height=75%>
+
 
 > [!NOTE]
 > 💬 Neste caso de uso não precisamos adicionar um Knowledge (base de conhecimento) ao agente. A finalidade dele independe de um conhecimento prévio.
