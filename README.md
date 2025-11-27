@@ -214,7 +214,7 @@ Desta forma, outras pessoas que utilizarem a mesma instância que utilizou para 
 
 ---
 
-Finalizamos a criação do Agente Exrator de Funcionários! Mas atente-se
+Finalizamos a criação do Agente Extrator de Funcionários! Mas atente-se
 
 > [!NOTE]
 > !! Você pode alterar a finalidade do Agente Extrator, pode criar baseado em outeos documentos, basta fazer o tratamento correto dos campos.
