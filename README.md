@@ -170,7 +170,7 @@ Quero uma visão geral de todas as skills técnicas de todos os funcionários
 Quais são as certificações do funcionario 3?
 ```
 
-<img src="./assets/visao_geral.gif" width=75% height=75%>
+<img src="./assets/id.png" width=75% height=75%>
 
 ---
 
