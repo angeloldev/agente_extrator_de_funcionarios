@@ -51,7 +51,7 @@ Todas essas etapas são realizadas no gif abaixo:
 
 <img src="./assets/criacao_flowbuild.gif" width=75% height=75%>
 
-Concluídas as etapas acima, um janela em **Document Extractor** se abrirá. Nela, selecione **Structred**.
+Concluídas as etapas acima, um janela em **Document Extractor** se abrirá. Nela, selecione **Unstructred**.
 
 <img src="./assets/doc_extractor_options.png" width=75% height=75%>
 
@@ -79,5 +79,16 @@ O modelo retorna o primeiro nome de funcionário encontrado, mas podemos ensiná
 Passando o cursor do mouse sobre o campo, um ícone aparecerá à direita, onde podemos realizar esse ajuste.
 
 <img src="./assets/edit_field.png" width=75% height=75%>
+<img src="./assets/edit-screen.png" width=75% height=75%>
+
+Agora, podemos conceder uma pequena descrição, e um exemplo de entrada e saída para o modelo entender o que deve retornar quando o usuário solicitar aquele campo específico.
+
+<img src="./assets/edit_field.png" width=75% height=75%>
+
+> [!NOTE]
+> 💬 Para ser ainda mais eficiente e específico, ao criar o exemplo, podemos inserir o input, e ao selecionar o campo de output, identificamos manualmente o campo desejado no documento com o cursor do mouse como mostra o gif a seguir!
+> <img src="./assets/identificao_field.png" width=75% height=75%>
+
+
 
 
