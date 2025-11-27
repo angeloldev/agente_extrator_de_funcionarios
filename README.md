@@ -205,6 +205,9 @@ Todos os testes validados, e o agente funcionando corretamente, chegou a hora de
 Para isso, toque em **Deploy**, localizado acima do chat de testes.
 
 <img src="./assets/deploy.png" width=75% height=75%>
+
+Verifique todas as características do seu agente. Assim que conferir todas as informações, clique novamente em **Deploy**.
+
 <img src="./assets/deploy_2.png" width=75% height=75%>
 
 Desta forma, outras pessoas que utilizarem a mesma instância que utilizou para fazer o Deploy do seu Agente Extrator de Funcionários, poderão utlizar o seu agente!
