@@ -4,7 +4,7 @@
 
 ‼️ É fundamental ler com atenção todos os **NOTES** e **WARNINGS**! Eles possuem informações extremamente relevantes para a continuidade do caso de uso.
 
-🧪 Este laboratório foi projetado para ajudá-lo a desenvolver habilidades práticas na criação, teste e ajuste de agentes com wtasonx Orchestrate.
+🧪 Este laboratório foi projetado para ajudá-lo a desenvolver habilidades práticas na criação, teste e ajuste de agentes com watsonx Orchestrate.
 
 
 ## I. Acessando o watsonx Orchestrate
