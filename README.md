@@ -55,10 +55,31 @@ Concluídas as etapas acima, um janela em **Document Extractor** se abrirá. Nel
 <img src="./assets/doc_extractor_options.png" width=75% height=75%>
 
 > [!NOTE]
-> 💬 A opção Structured é utilizada em documentos que apresentam boa legibilidade, organização e padrões de escrita, que parecem sempre iguais. Exemplos: faturas, identidades, declarações fiscais.
-> Caso seja um documento que apresente informações com um layout inconsistente, utilize a Unstructured. Exemplos: e-mails, relatórios.
+> 💬 A opção **Structured** é utilizada em documentos que apresentam boa legibilidade, organização e padrões de escrita, que parecem sempre iguais. Exemplos: faturas, identidades, declarações fiscais.
+> Caso seja um documento que apresente informações com um layout inconsistente, utilize a **Unstructured**. Exemplos: e-mails, relatórios.
 
-Baixe o [perfil_de_funcionários](./assets/perfil_funcionarios.pdf) e faça o upload do arquivo na tela abaixo
+Baixe o [perfil_de_funcionários](./assets/perfil_funcionarios.pdf) e faça o upload do arquivo.
+
+<img src="./assets/drop_files.png" width=75% height=75%>
+
+Nesta etapa, vamos adicionar os campos de interesse dentro do documento. É necessário que adicionemos alguns exemplos a fim de aprendizado do modelo, demonstrando um melhor direcionamento de entidades presentes no arquivo.
+
+Vamos implementar desde a identificação dos campos, até o tratamento destes para melhores resultados.
+
+Selecione a opção **Add field** e coloque um campo presente no documento, utilizaremos {nome do funcionario} como exemplo.
+
+<img src="./assets/add_field.png" width=75% height=75%>
+<img src="./assets/nome_funcionario.png" width=75% height=75%>
+
+O modelo retorna o primeiro nome de funcionário encontrado, mas podemos ensiná-lo a identificar outros nomes!
+
+<img src="./assets/nome_funcionario.png" width=75% height=75%>
+
+Passando o cursor do mouse sobre o campo, um ícone aparecerá à direita, onde podemos realizar esse ajuste.
+
+<img src="./assets/edit_field.png" width=75% height=75%>
+
+
 
 ## II. Exemplos de Bad Chain
 
