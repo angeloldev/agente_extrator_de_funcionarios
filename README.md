@@ -2,9 +2,9 @@
 
 *Visão geral* - O Agente Extrator de Entidades é um excelente caso de uso para demonstrar a eficácia do watsonx Orchestrate em extrair campos, entidades e informações encontradas em documentos inseridos pelo usuário.
 
-‼️ É fundamental praticar engenharia de prompt, pois a forma como você formula a pergunta impacta diretamente a resposta do modelo e prompts mal elaborados podem levar a respostas incorretas ou a conteúdo inseguro. 
+‼️ É fundamental ler com atenção todos os **NOTES** e **WARNINGS**! Eles possuem informações extremamente relevantes para a continuidade do caso de uso.
 
-🧪 Este laboratório foi projetado para ajudá-lo a desenvolver habilidades práticas na criação, teste e ajuste de agentes.
+🧪 Este laboratório foi projetado para ajudá-lo a desenvolver habilidades práticas na criação, teste e ajuste de agentes com wtasonx Orchestrate.
 
 
 ## I. Criando e configurando agente
@@ -167,7 +167,7 @@ Quero uma visão geral de todas as skills técnicas de todos os funcionários
 <img src="./assets/visao_geral.gif" width=75% height=75%>
 
 ```
-Quais são as certificações do funcionario 3?
+Quais funcionários possuem ID, e qual o número de identificação de cada um deles?
 ```
 
 <img src="./assets/id.png" width=75% height=75%>
